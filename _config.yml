@@ -1,0 +1,11 @@
+title: Sitraka HQ
+author: Sitraka Ratsimba  
+email: ratsimbasitraka@gmail.com
+
+github_username:  sitraka-hq
+
+description: >- # this means to ignore newlines until "baseurl:"
+    Bienvenu sur Sitraka HQ. J'ai créé ce site pour partager mon expérience et pour me rappeler des solutions que j'ai utilisé pour résoudre les problèmes que j'ai rencontré dans le domaine de l'Informatique. Bonne lecture !
+
+plugins:
+  - jekyll-feed
