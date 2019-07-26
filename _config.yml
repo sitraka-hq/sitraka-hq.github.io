@@ -1,11 +1,46 @@
-title: Sitraka HQ
-author: Sitraka Ratsimba  
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Sitraka Ratsimba
 email: ratsimbasitraka@gmail.com
-
-github_username:  sitraka-hq
-
 description: >- # this means to ignore newlines until "baseurl:"
-    Bienvenu sur Sitraka HQ. J'ai créé ce site pour partager mon expérience et pour me rappeler des solutions que j'ai utilisé pour résoudre les problèmes que j'ai rencontré dans le domaine de l'Informatique. Bonne lecture !
-
+  Bienvenu! J'ai créé ce site pour partager mon expérience et
+  pour me rappeler des solutions que j'ai utilisé pour résoudre les problèmes
+  que j'ai rencontré dans le domaine de l'Informatique. Bonne lecture !
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sitraka-hq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: SitrakaHQ
+github_username:  sitraka-hq
+disqus:
+  shortname: sitraka-hq
+# Build settings
+markdown: kramdown
+theme: minima
+minima:
+  date_format: "%d/%m/%y"
 plugins:
   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
