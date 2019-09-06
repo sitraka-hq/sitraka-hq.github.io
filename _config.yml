@@ -30,6 +30,7 @@ markdown: kramdown
 theme: minima
 minima:
   date_format: "%d/%m/%y"
+show_excerpts: true
 plugins:
   - jekyll-feed
 google_analytics: UA-144640806-1
