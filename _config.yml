@@ -33,6 +33,7 @@ minima:
 show_excerpts: true
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 google_analytics: UA-144640806-1
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
